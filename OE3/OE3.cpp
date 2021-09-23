@@ -11,6 +11,12 @@ const int VAT1 = 12;
 const int VAT2 = 10;
 const int VAT3 = 5;
 
+// Tax schemes:           
+//       Salary Range                      VAT
+//       >40000                            12%
+//       30000-40000                       10%
+//       <20000                             5%
+
 int main(){
 
     //--------------Variable names---------------
@@ -45,7 +51,7 @@ int main(){
         cout << "Gross Pay    :" << grossPay << endl;
         cout << "Tax Rate     :" << VAT1 << "%" << endl;
         cout << "Net Pay      :" << netPay << endl;
-    } else if (netPay <= 40000 && netPay > 20000) {
+    } else if (netPay <= 40000 && netPay >= 30000) {
         cout << "-----------------------" << endl;
         netPay = netPay - (netPay * VAT2 / 100);
         cout << "Employee ID  :" << ID << endl;
@@ -61,6 +67,12 @@ int main(){
         cout << "Gross Pay    :" << grossPay << endl;
         cout << "Tax Rate     :" << VAT3 << "%" << endl;
         cout << "Net Pay      :" << netPay << endl;
+    } else {
+        cout << "-----------------------" << endl;
+        netPay = netPay - (netPay * 0 / 100);
+        cout << "Employee ID  :" << ID << endl;
+        cout << "Employee Name:" << eName << endl;
+        cout << "Gross Pay    :" << grossPay << endl;
     };
 
     return 0;
