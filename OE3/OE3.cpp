@@ -71,10 +71,11 @@ int main(){
         cout << "Net Pay      :" << netPay << endl;
     } else {
         cout << "-----------------------" << endl;
-        netPay = netPay - (netPay * 0 / 100);
         cout << "Employee ID  :" << ID << endl;
         cout << "Employee Name:" << eName << endl;
         cout << "Gross Pay    :" << grossPay << endl;
+        cout << "Tax Rate     :" << "0" << "%" << endl;
+        cout << "Net Pay      :" << netPay << endl;
         // The Tax schemes on the third activitie didn't specify what will happen 
         // if the Salary Range is greater than 20,000 (>20000) so I added 
         // another else to print out the salary.
