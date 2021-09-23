@@ -28,9 +28,6 @@ int main(){
     cout << "Enter rate per hour:" ;
     cin >> ratePerHour;
 
-    ID = 1;
-    eName = "a";
-
     netPay = ratePerHour * numOfWork;
     grossPay = netPay;
 
