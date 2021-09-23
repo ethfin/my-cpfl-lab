@@ -66,6 +66,6 @@ int main(){
         cout << "Tax Rate     :" << VAT3 << "%" << endl;
         cout << "Net Pay      :" << netPay << endl;
     };
-
+    
     return 0;
 }
