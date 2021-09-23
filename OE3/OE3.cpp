@@ -74,7 +74,7 @@ int main(){
         cout << "Employee Name:" << eName << endl;
         cout << "Gross Pay    :" << grossPay << endl;
         // The Tax schemes on the third activitie didn't specify what will happen 
-        // if the Salary Range is greater than 20,000 (>20000) so I change added 
+        // if the Salary Range is greater than 20,000 (>20000) so I added 
         // another else to print out the salary.
     };
 
