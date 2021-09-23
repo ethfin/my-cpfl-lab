@@ -19,20 +19,19 @@ int main(){
     double netPay, ratePerHour, taxPay, grossPay;
     //-------------------------------------------
 
-    // cout << "Enter employee ID  :";
-    // cin >> ID;
-    // cout << "Enter employee name:";
-    // cin >> eName;
-    // cout << "Enter hours worked :";
-    // cin >> numOfWork;
-    // cout << "Enter rate per hour:" ;
-    // cin >> ratePerHour;
+    cout << "Enter employee ID  :";
+    cin >> ID;
+    cout << "Enter employee name:";
+    cin >> eName;
+    cout << "Enter hours worked :";
+    cin >> numOfWork;
+    cout << "Enter rate per hour:" ;
+    cin >> ratePerHour;
 
     ID = 1;
     eName = "a";
 
-    // netPay = ratePerHour * numOfWork;
-    netPay = 20400;
+    netPay = ratePerHour * numOfWork;
     grossPay = netPay;
 
     //----------format---------
