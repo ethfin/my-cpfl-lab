@@ -1,6 +1,8 @@
 //Name: Christopher L. Galano
 //Activity Name: OE3
-//Description: Create a salary program in C++ with inputs, employee id, employee name, hours worked, and rate per hour. Salary is computed based on hours worked and rate per hour minus tax based on the tax schemes.
+//Description: Create a salary program in C++ with inputs, employee id, employee name,
+//hours worked, and rate per hour. Salary is computed based on hours worked and rate
+//per hour minus tax based on the tax schemes.
 //Date: September 23 2021
 #include <iostream>
 #include <string>
