@@ -7,14 +7,17 @@
 using namespace std;
 
 int main(){
-
-
     //--------------Variable names---------------
-    int rows, var1, var2, var3;
+    int rows, var1, var2, var3, triangle1, triangle2, triangle3;
     //-------------------------------------------
 
     cout << "Enter input : "; 
     cin >> rows;
+
+    if(rows < 1){
+        cout << "Error, input value should be greater than 0";
+        return 0;
+    }
 
     for (int triangleH = 1; triangleH <= rows; triangleH++){
         //----------------------
@@ -27,7 +30,7 @@ int main(){
         for (int i = 1; i <= var1; i++){
             cout << " ";
         }
-        for (int triangle1 = 1; triangle1 <= var3; triangle1++){
+        for (triangle1 = 1; triangle1 <= var3; triangle1++){
             if (triangle1 == 1 || triangle1 == var3) {
                 cout << "*";
             } else if (triangleH == rows) {
@@ -43,7 +46,7 @@ int main(){
         for (int i = 1; i <= var1; i++){
             cout << "  ";
         }
-        for (int triangle2 = 1; triangle2 <= var3; triangle2++){
+        for (triangle2 = 1; triangle2 <= var3; triangle2++){
             if (triangle2 == 1 || triangle2 == var3) {
                 cout << "*";
             } else if (triangleH == rows) {
@@ -59,11 +62,10 @@ int main(){
         for (int i = 1; i <= var1; i++){
             cout << "  ";
         }
-        for (int triangle3 = 1; triangle3 <= var3; triangle3++){
+        for (triangle3 = 1; triangle3 <= var3; triangle3++){
             if (triangle3 == 1 || triangle3 == var3) {
                 cout << "*";
             } else if (triangleH == rows) {
-                
                 cout << "*";
             } else {
                 cout << " ";
