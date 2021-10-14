@@ -1,7 +1,7 @@
 // Name: Christopher Galano
 // Activity Name: PT1
 // Description: A program that can tell if the input value is a odd or even number
-// Date: October 6, 2021
+// Date: October 14, 2021
 
 #include <iostream>
 
