@@ -1,7 +1,7 @@
 //Name: Christopher L. Galano
 //Activity Name: OE4
 //Description: Create 3 triangles using for loops
-//Date: September 14 2021
+//Date: October 14 2021
 #include <iostream>
 
 using namespace std;
