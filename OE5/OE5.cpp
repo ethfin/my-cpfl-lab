@@ -61,7 +61,7 @@ int main(){
 
 void reverseString(string InputString){
     cout << "Reversed word: ";
-    for(int i = InputString.length() - 1 ; i >= 0; i--){
+    for(int i = InputString.length(); i >= 0; i--){
         cout << InputString[i];
     }
     cout  << endl << endl;
