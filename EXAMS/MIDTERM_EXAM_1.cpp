@@ -1,5 +1,5 @@
 //Name: Christopher L. Galano
-//Activity Nsame: CPFL Midterm Exam
+//Activity Name: CPFL Midterm Exam
 //Description: C++ program console conversion app
 //Date: November 9, 2021
 
