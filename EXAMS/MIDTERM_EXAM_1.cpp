@@ -29,6 +29,8 @@ int main(){
     do{
         system("cls");
         cout << endl;
+        cout << "Weight Conversion App\n";
+        cout << endl;
         cout << "[1] Kilogram to Milligram" << endl;
         cout << "[2] Gram to Milligram" << endl;
         cout << "[3] Milligram to Gram" << endl;
