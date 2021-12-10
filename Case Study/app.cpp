@@ -9,7 +9,6 @@
 using namespace std;
 
 void promptAndWait();
-void grade(int grd[]);
 void edit(int arrayInput[]);
 void addStudent(int input[]);
 void logs();
